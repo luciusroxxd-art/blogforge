@@ -63,9 +63,9 @@ export default function Home() {
             },
             {
               title: "Read",
-              desc: "👉 Browse posts in a clean, responsive UI — with options to edit ✏️ or delete 🗑️ your posts anytime",
+              desc: "👉 Browse posts in a clean, responsive UI — with options to edit ✏️ or delete 🗑️ your posts anytime.",
               color: "text-blue-400",
-              link: "/posts",
+              link: "/post",
             },
 
           ].map((f, idx) => (
@@ -78,7 +78,7 @@ export default function Home() {
               </div>
             </Link>
           ))}
-        </div> 
+        </div>
       </section>
 
       {/* Tech Stack Section */}
